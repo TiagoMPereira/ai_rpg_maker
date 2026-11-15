@@ -1,0 +1,28 @@
+{
+  "_comentario": [
+    "exemplo_aliado.json — Ficha de um companheiro controlado pela IA.",
+    "Mesma estrutura do protagonista, mais campos de relação:",
+    "lealdade (escala numérica, 0 a 10), relacao (como vê o protagonista) e",
+    "comportamento (como age em combate e em conflitos). Um arquivo por aliado."
+  ],
+  "id": "lira",
+  "nome": "Lira",
+  "classe": "Batedora",
+  "nivel": 1,
+  "xp": 0,
+  "background": "Sobrevivente de Vau Cinzento; perdeu a família no massacre.",
+  "personalidade": "Calada, observadora, rancorosa com soldados.",
+  "objetivos": ["Vingar Vau Cinzento"],
+  "atributos": {"for": 10, "des": 16, "con": 12, "int": 12, "sab": 14, "car": 10},
+  "pv": {"atual": 9, "max": 9},
+  "ca": 14,
+  "proficiencia": 2,
+  "pericias": ["furtividade", "percepcao"],
+  "ataques": [{"nome": "Arco curto", "atributo": "des", "dano": "1d6"}],
+  "inventario": ["aljava com 20 flechas", "faca de caça", "ervas medicinais x2"],
+  "recursos": {},
+  "condicoes": [],
+  "lealdade": 3,
+  "relacao": "Desconfia de Kael por ele ter sido soldado, mas precisa de ajuda.",
+  "comportamento": "Prefere atacar de longe e se esconder; foge se a luta parecer perdida; nunca poupa soldados do Barão."
+}

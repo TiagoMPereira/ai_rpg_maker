@@ -1,0 +1,5 @@
+# Dependências do projeto RPG Mestre.
+# Se a exportação for para PDF, adicionar também uma biblioteca de geração de PDF.
+streamlit
+anthropic
+python-dotenv

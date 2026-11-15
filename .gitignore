@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RPG Mestre
+# Banco do catálogo (criado automaticamente pelo core/db.py)
+ai_master/data/rpg.db
+# Aventuras reais; apenas a aventura de exemplo é versionada
+ai_master/data/aventuras/*
+!ai_master/data/aventuras/000-sample/

@@ -1,0 +1,25 @@
+{
+  "_comentario": [
+    "protagonista.json — Ficha do personagem do jogador.",
+    "As chaves de atributos e pericias devem existir no sistema.json.",
+    "Contém: identidade (nome, classe, nível, XP), background, personalidade, objetivos,",
+    "atributos, PV, CA, proficiência, perícias, ataques, inventário, recursos e condições ativas."
+  ],
+  "id": "protagonista",
+  "nome": "Kael",
+  "classe": "Guerreiro",
+  "nivel": 1,
+  "xp": 0,
+  "background": "Ex-soldado que desertou após um massacre.",
+  "personalidade": "Desconfiado, protetor com os fracos.",
+  "objetivos": ["Descobrir quem deu a ordem do massacre"],
+  "atributos": {"for": 16, "des": 12, "con": 14, "int": 10, "sab": 13, "car": 8},
+  "pv": {"atual": 12, "max": 12},
+  "ca": 16,
+  "proficiencia": 2,
+  "pericias": ["atletismo", "percepcao"],
+  "ataques": [{"nome": "Espada longa", "atributo": "for", "dano": "1d8"}],
+  "inventario": ["corda", "tocha x3", "10 moedas de ouro"],
+  "recursos": {},
+  "condicoes": []
+}

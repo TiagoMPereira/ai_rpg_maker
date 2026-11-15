@@ -1,0 +1,5 @@
+{"id": 1, "turno": 1, "ts": "2026-11-14T19:00:00", "tipo": "narracao", "autor": "mestre", "conteudo": "A chuva castiga o telhado da Taverna do Corvo..."}
+{"id": 2, "turno": 1, "ts": "2026-11-14T19:00:05", "tipo": "escolha", "autor": "mestre", "conteudo": "O que você faz?", "dados": {"opcoes": ["Falar com o taverneiro", "Observar o salão", "Sair na chuva"]}}
+{"id": 3, "turno": 1, "ts": "2026-11-14T19:01:10", "tipo": "decisao", "autor": "jogador", "conteudo": "Observar o salão"}
+{"id": 4, "turno": 2, "ts": "2026-11-14T19:01:15", "tipo": "pedido_rolagem", "autor": "mestre", "conteudo": "Teste de Percepção", "dados": {"pericia": "percepcao", "cd": 15}}
+{"id": 5, "turno": 2, "ts": "2026-11-14T19:01:30", "tipo": "rolagem", "autor": "sistema", "conteudo": "1d20+1 = 17", "dados": {"dados": [16], "bonus": 1, "total": 17, "cd": 15, "sucesso": true}}

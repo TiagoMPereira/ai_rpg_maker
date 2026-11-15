@@ -1,0 +1,23 @@
+{
+  "_comentario": [
+    "exemplo_npc.json — Ficha de NPC ou criatura, mais enxuta.",
+    "Contém: id, nome, tipo (npc | criatura), descrição, motivação,",
+    "disposicao (hostil | neutro | amigavel), bloco de estatísticas (atributos, PV, CA, ataques),",
+    "segredos (só para o mestre) e status (vivo | morto | desaparecido).",
+    "Um arquivo por NPC relevante; inimigos genéricos podem compartilhar uma ficha."
+  ],
+  "id": "taverneiro",
+  "nome": "Bram",
+  "tipo": "npc",
+  "descricao": "Homem grande e calvo, de avental manchado, dono da Taverna do Corvo.",
+  "motivacao": "Manter a taverna funcionando e lucrar com as informações que ouve.",
+  "disposicao": "neutro",
+  "estatisticas": {
+    "atributos": {"for": 14, "des": 10, "con": 13, "int": 11, "sab": 14, "car": 12},
+    "pv": {"atual": 11, "max": 11},
+    "ca": 11,
+    "ataques": [{"nome": "Porrete", "atributo": "for", "dano": "1d6"}]
+  },
+  "segredos": ["É informante da Irmandade da Lanterna."],
+  "status": "vivo"
+}

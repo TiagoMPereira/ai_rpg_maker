@@ -1,0 +1,22 @@
+{
+  "_comentario": [
+    "estado.json — Fotografia do momento atual do jogo, sobrescrita a cada turno.",
+    "turno: número do turno atual. tempo: data/hora dentro do jogo.",
+    "cena: local atual, descrição curta e quem está presente.",
+    "combate: se está ativo, rodada e ordem de iniciativa com PV de cada participante.",
+    "missoes: missões ativas e concluídas. fatos: flags e fatos estabelecidos.",
+    "pendente: o que o mestre espera do jogador (escolha com opções ou rolagem com tipo e CD);",
+    "permite retomar a aventura exatamente de onde parou."
+  ],
+  "turno": 0,
+  "tempo": "Dia 1, entardecer",
+  "cena": {
+    "local": "Taverna do Corvo",
+    "descricao": "Salão cheio, chuva lá fora.",
+    "presentes": ["protagonista", "taverneiro"]
+  },
+  "combate": {"ativo": false, "rodada": 0, "iniciativa": []},
+  "missoes": {"ativas": [], "concluidas": []},
+  "fatos": {},
+  "pendente": null
+}

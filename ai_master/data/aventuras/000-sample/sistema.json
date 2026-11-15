@@ -1,0 +1,32 @@
+{
+  "_comentario": [
+    "sistema.json — Parte das regras que o código precisa ler.",
+    "Os nomes aqui são a fonte da verdade: fichas e estado devem usar exatamente as mesmas chaves.",
+    "atributos: lista com id, nome e faixa de valores.",
+    "modificador: regra de cálculo do modificador ((valor - base) / divisor, arredondado para baixo).",
+    "pericias: mapa perícia -> atributo.",
+    "dado_teste: dado usado nos testes.",
+    "cd: tabela nomeada de dificuldades.",
+    "critico: valores de crítico e falha crítica.",
+    "condicoes: lista de condições válidas.",
+    "progressao: XP necessário por nível e bônus de proficiência por nível."
+  ],
+  "atributos": [
+    {"id": "for", "nome": "Força", "min": 1, "max": 20},
+    {"id": "des", "nome": "Destreza", "min": 1, "max": 20},
+    {"id": "con", "nome": "Constituição", "min": 1, "max": 20},
+    {"id": "int", "nome": "Inteligência", "min": 1, "max": 20},
+    {"id": "sab", "nome": "Sabedoria", "min": 1, "max": 20},
+    {"id": "car", "nome": "Carisma", "min": 1, "max": 20}
+  ],
+  "modificador": {"base": 10, "divisor": 2},
+  "pericias": {"atletismo": "for", "furtividade": "des", "percepcao": "sab"},
+  "dado_teste": "1d20",
+  "cd": {"facil": 10, "media": 15, "dificil": 20, "quase_impossivel": 25},
+  "critico": {"sucesso": 20, "falha": 1},
+  "condicoes": ["envenenado", "caido", "atordoado", "cego"],
+  "progressao": {
+    "xp_por_nivel": [0, 300, 900, 2700],
+    "proficiencia_por_nivel": [2, 2, 2, 2]
+  }
+}
